@@ -116,7 +116,7 @@ video {
     }
 }
 .card{
-    background-image: url(/assets/backs.png) !important;
+    background-image: url(./assets/backs.png) !important;
     background-size: cover;
     border: 0px solid transparent !important;
     color: white !important;
