@@ -46,10 +46,19 @@ new WOW().init();
 
 ////
 function downloadPDF() {
-    const url = './assets/CV-DayanaMartinez-frontend.pdf';
+    const url = './assets/CV-Dayana-en.pdf';
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', 'CV-DayanaMartinez-frontend.pdf');
+    link.setAttribute('download', 'CV-Dayana-en.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+function downloadPDFes() {
+    const url = './assets/CV-Dayana-es.pdf';
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'CV-Dayana-es.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
