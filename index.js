@@ -46,7 +46,7 @@ new WOW().init();
 
 ////
 function downloadPDF() {
-    const url = './assets/CV-Dayana-en.pdf';
+    const url = './assets/CV-Dayana-es.pdf.pdf';
     const link = document.createElement('a');
     link.href = url;
     link.setAttribute('download', 'CV-Dayana-en.pdf');
@@ -55,7 +55,7 @@ function downloadPDF() {
     document.body.removeChild(link);
 }
 function downloadPDFes() {
-    const url = './assets/CV-Dayana-es.pdf';
+    const url = './assets/CV-Dayana-es.pdf.pdf';
     const link = document.createElement('a');
     link.href = url;
     link.setAttribute('download', 'CV-Dayana-es.pdf');
